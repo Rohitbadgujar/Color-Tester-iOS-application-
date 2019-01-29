@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A82FD5222005E9D0022738C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A82FD5122005E9D0022738C /* AppDelegate.swift */; };
+		5A82FD5422005E9D0022738C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A82FD5322005E9D0022738C /* ViewController.swift */; };
+		5A82FD5722005E9D0022738C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A82FD5522005E9D0022738C /* Main.storyboard */; };
+		5A82FD5922005E9F0022738C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A82FD5822005E9F0022738C /* Assets.xcassets */; };
+		5A82FD5C22005E9F0022738C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A82FD5A22005E9F0022738C /* LaunchScreen.storyboard */; };
+		5A82FD6722005E9F0022738C /* Color_TesterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A82FD6622005E9F0022738C /* Color_TesterTests.swift */; };
+		5A82FD7222005E9F0022738C /* Color_TesterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A82FD7122005E9F0022738C /* Color_TesterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A82FD6322005E9F0022738C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A82FD4622005E9D0022738C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A82FD4D22005E9D0022738C;
+			remoteInfo = "Color Tester";
+		};
+		5A82FD6E22005E9F0022738C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A82FD4622005E9D0022738C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A82FD4D22005E9D0022738C;
+			remoteInfo = "Color Tester";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A82FD4E22005E9D0022738C /* Color Tester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Tester.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A82FD5122005E9D0022738C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A82FD5322005E9D0022738C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A82FD5622005E9D0022738C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A82FD5822005E9F0022738C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A82FD5B22005E9F0022738C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A82FD5D22005E9F0022738C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A82FD6222005E9F0022738C /* Color TesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Color TesterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A82FD6622005E9F0022738C /* Color_TesterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_TesterTests.swift; sourceTree = "<group>"; };
+		5A82FD6822005E9F0022738C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A82FD6D22005E9F0022738C /* Color TesterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Color TesterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A82FD7122005E9F0022738C /* Color_TesterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_TesterUITests.swift; sourceTree = "<group>"; };
+		5A82FD7322005E9F0022738C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A82FD4B22005E9D0022738C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A82FD5F22005E9F0022738C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A82FD6A22005E9F0022738C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A82FD4522005E9D0022738C = {
+			isa = PBXGroup;
+			children = (
+				5A82FD5022005E9D0022738C /* Color Tester */,
+				5A82FD6522005E9F0022738C /* Color TesterTests */,
+				5A82FD7022005E9F0022738C /* Color TesterUITests */,
+				5A82FD4F22005E9D0022738C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A82FD4F22005E9D0022738C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A82FD4E22005E9D0022738C /* Color Tester.app */,
+				5A82FD6222005E9F0022738C /* Color TesterTests.xctest */,
+				5A82FD6D22005E9F0022738C /* Color TesterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A82FD5022005E9D0022738C /* Color Tester */ = {
+			isa = PBXGroup;
+			children = (
+				5A82FD5122005E9D0022738C /* AppDelegate.swift */,
+				5A82FD5322005E9D0022738C /* ViewController.swift */,
+				5A82FD5522005E9D0022738C /* Main.storyboard */,
+				5A82FD5822005E9F0022738C /* Assets.xcassets */,
+				5A82FD5A22005E9F0022738C /* LaunchScreen.storyboard */,
+				5A82FD5D22005E9F0022738C /* Info.plist */,
+			);
+			path = "Color Tester";
+			sourceTree = "<group>";
+		};
+		5A82FD6522005E9F0022738C /* Color TesterTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A82FD6622005E9F0022738C /* Color_TesterTests.swift */,
+				5A82FD6822005E9F0022738C /* Info.plist */,
+			);
+			path = "Color TesterTests";
+			sourceTree = "<group>";
+		};
+		5A82FD7022005E9F0022738C /* Color TesterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A82FD7122005E9F0022738C /* Color_TesterUITests.swift */,
+				5A82FD7322005E9F0022738C /* Info.plist */,
+			);
+			path = "Color TesterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A82FD4D22005E9D0022738C /* Color Tester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A82FD7622005E9F0022738C /* Build configuration list for PBXNativeTarget "Color Tester" */;
+			buildPhases = (
+				5A82FD4A22005E9D0022738C /* Sources */,
+				5A82FD4B22005E9D0022738C /* Frameworks */,
+				5A82FD4C22005E9D0022738C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Color Tester";
+			productName = "Color Tester";
+			productReference = 5A82FD4E22005E9D0022738C /* Color Tester.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A82FD6122005E9F0022738C /* Color TesterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A82FD7922005E9F0022738C /* Build configuration list for PBXNativeTarget "Color TesterTests" */;
+			buildPhases = (
+				5A82FD5E22005E9F0022738C /* Sources */,
+				5A82FD5F22005E9F0022738C /* Frameworks */,
+				5A82FD6022005E9F0022738C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A82FD6422005E9F0022738C /* PBXTargetDependency */,
+			);
+			name = "Color TesterTests";
+			productName = "Color TesterTests";
+			productReference = 5A82FD6222005E9F0022738C /* Color TesterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A82FD6C22005E9F0022738C /* Color TesterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A82FD7C22005E9F0022738C /* Build configuration list for PBXNativeTarget "Color TesterUITests" */;
+			buildPhases = (
+				5A82FD6922005E9F0022738C /* Sources */,
+				5A82FD6A22005E9F0022738C /* Frameworks */,
+				5A82FD6B22005E9F0022738C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A82FD6F22005E9F0022738C /* PBXTargetDependency */,
+			);
+			name = "Color TesterUITests";
+			productName = "Color TesterUITests";
+			productReference = 5A82FD6D22005E9F0022738C /* Color TesterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A82FD4622005E9D0022738C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Rohit Shivdas Badgujar";
+				TargetAttributes = {
+					5A82FD4D22005E9D0022738C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					5A82FD6122005E9F0022738C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5A82FD4D22005E9D0022738C;
+					};
+					5A82FD6C22005E9F0022738C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5A82FD4D22005E9D0022738C;
+					};
+				};
+			};
+			buildConfigurationList = 5A82FD4922005E9D0022738C /* Build configuration list for PBXProject "Color Tester" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A82FD4522005E9D0022738C;
+			productRefGroup = 5A82FD4F22005E9D0022738C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A82FD4D22005E9D0022738C /* Color Tester */,
+				5A82FD6122005E9F0022738C /* Color TesterTests */,
+				5A82FD6C22005E9F0022738C /* Color TesterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A82FD4C22005E9D0022738C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A82FD5C22005E9F0022738C /* LaunchScreen.storyboard in Resources */,
+				5A82FD5922005E9F0022738C /* Assets.xcassets in Resources */,
+				5A82FD5722005E9D0022738C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A82FD6022005E9F0022738C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A82FD6B22005E9F0022738C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A82FD4A22005E9D0022738C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A82FD5422005E9D0022738C /* ViewController.swift in Sources */,
+				5A82FD5222005E9D0022738C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A82FD5E22005E9F0022738C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A82FD6722005E9F0022738C /* Color_TesterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A82FD6922005E9F0022738C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A82FD7222005E9F0022738C /* Color_TesterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A82FD6422005E9F0022738C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A82FD4D22005E9D0022738C /* Color Tester */;
+			targetProxy = 5A82FD6322005E9F0022738C /* PBXContainerItemProxy */;
+		};
+		5A82FD6F22005E9F0022738C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A82FD4D22005E9D0022738C /* Color Tester */;
+			targetProxy = 5A82FD6E22005E9F0022738C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A82FD5522005E9D0022738C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A82FD5622005E9D0022738C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A82FD5A22005E9F0022738C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A82FD5B22005E9F0022738C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A82FD7422005E9F0022738C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A82FD7522005E9F0022738C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A82FD7722005E9F0022738C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Color Tester/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UCC.Color-Tester";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A82FD7822005E9F0022738C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Color Tester/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UCC.Color-Tester";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A82FD7A22005E9F0022738C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Color TesterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UCC.Color-TesterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Color Tester.app/Color Tester";
+			};
+			name = Debug;
+		};
+		5A82FD7B22005E9F0022738C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Color TesterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UCC.Color-TesterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Color Tester.app/Color Tester";
+			};
+			name = Release;
+		};
+		5A82FD7D22005E9F0022738C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Color TesterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UCC.Color-TesterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Color Tester";
+			};
+			name = Debug;
+		};
+		5A82FD7E22005E9F0022738C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Color TesterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UCC.Color-TesterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Color Tester";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A82FD4922005E9D0022738C /* Build configuration list for PBXProject "Color Tester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A82FD7422005E9F0022738C /* Debug */,
+				5A82FD7522005E9F0022738C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A82FD7622005E9F0022738C /* Build configuration list for PBXNativeTarget "Color Tester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A82FD7722005E9F0022738C /* Debug */,
+				5A82FD7822005E9F0022738C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A82FD7922005E9F0022738C /* Build configuration list for PBXNativeTarget "Color TesterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A82FD7A22005E9F0022738C /* Debug */,
+				5A82FD7B22005E9F0022738C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A82FD7C22005E9F0022738C /* Build configuration list for PBXNativeTarget "Color TesterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A82FD7D22005E9F0022738C /* Debug */,
+				5A82FD7E22005E9F0022738C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A82FD4622005E9D0022738C /* Project object */;
+}
